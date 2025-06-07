@@ -1,0 +1,5 @@
+.container {
+  --PGliteRepl-font-size: 1rem;
+  display: grid;
+  height: 100dvh;
+}

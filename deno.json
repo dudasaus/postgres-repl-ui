@@ -1,0 +1,7 @@
+{
+  "imports": {
+    "@std/http": "jsr:@std/http@^1.0.17",
+    "@std/path": "jsr:@std/path@^1.1.0",
+    "@webui/deno-webui": "jsr:@webui/deno-webui@^2.5.8"
+  }
+}
