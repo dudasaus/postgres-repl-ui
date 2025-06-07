@@ -6,8 +6,9 @@
   "scripts": {
     "dev": "deno --allow-read --allow-write --allow-env --allow-ffi --allow-sys --allow-net --allow-run --no-check mod.ts",
     "compile": "deno compile --allow-env --allow-write --allow-read --allow-net --allow-ffi --no-terminal --include ./dist mod.ts",
+    "compile-debug": "deno compile --allow-env --allow-write --allow-read --allow-net --allow-ffi --include ./dist mod.ts",
     "dist": "deno task build && deno task compile",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build && bash ./rename.sh",
     "lint": "eslint .",
     "preview": "vite preview"
   },
